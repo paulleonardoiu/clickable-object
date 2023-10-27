@@ -1,0 +1,2 @@
+# clickable-object
+ camping supplies

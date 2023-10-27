@@ -1,0 +1,97 @@
+.appContainer{
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    // padding: 20px;
+    background-image: url("../images/camping/background-forest.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    .camping{
+        background-color: #fff;
+        padding: 10px;
+        // box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6), 0 6px 20px 0 rgba(255, 255, 255, 0.8);
+        // box-shadow: 0 4px 8px 0 rgba(218, 165, 32, 0.6), 0 6px 20px 0 rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        display: flex;
+        // justify-content: space-between;
+        flex-direction: column;
+        .text{
+            margin-top: 10px;
+            padding: 5px;
+            border-radius: 5px;
+            color: #000;
+            // padding-top: 10px;
+            // background-color: #fff;
+            .title{
+                color: brown;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            hr{
+                margin-top: -12px;
+                width: 220px;
+            }
+            .desc{
+                margin-top: 12px;
+                // color: tan;
+                min-height: 100px;
+            }
+            .rating{
+                color: brown;
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // flex-direction: column;
+        p{
+            width: 300px;
+            // margin: 0;
+        }
+    }
+
+    .fullGame{
+        min-height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        padding: 40px;
+        border-radius: 10px;
+        .fullImg{
+            max-width: 500px;
+            padding: 20px;
+        }
+        .fullText{
+            max-width: 500px;
+            .fullTitle{
+                color: brown;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            hr{
+                border: 2px solid black;
+            }
+            .fullDesc{
+                margin-top: 20px;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .close{
+        padding: 10px 40px;
+        background-color: goldenrod;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 5px;
+        color: #fff;
+    }
+}
